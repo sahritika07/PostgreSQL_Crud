@@ -33,6 +33,7 @@ export const getUsers = async (req, res) => {
 
 
 // UPDATE
+
 export const updateUser = async (req, res) => {
   const { id } = req.params;
   const { name, age } = req.body;
