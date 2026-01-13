@@ -72,3 +72,5 @@ temp/
 # Optional
 # ----------------------------
 package-lock.json
+
+/src/generated/prisma
