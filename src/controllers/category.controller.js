@@ -12,6 +12,8 @@ export const createCategory = async (req, res) => {
       return res.status(400).json({ message: "Category name is required" });
     }
 
+    
+
     const category = await prisma.category.create({
       data: { name },
     });
