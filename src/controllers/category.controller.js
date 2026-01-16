@@ -28,6 +28,8 @@ export const createCategory = async (req, res) => {
       return res.status(409).json({ message: "Category already exists" });
     }
 
+    
+
     res.status(500).json({
       message: "Server error",
       error: error.message,
