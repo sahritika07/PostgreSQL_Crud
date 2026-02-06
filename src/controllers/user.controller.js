@@ -13,6 +13,8 @@ export const getAllUsers = async (req, res) => {
       },
     });
 
+    
+
     res.json({
       count: users.length,
       data: users,
