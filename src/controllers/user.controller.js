@@ -12,9 +12,6 @@ export const getAllUsers = async (req, res) => {
         email: true,
       },
     });
-
-    
-
     res.json({
       count: users.length,
       data: users,
